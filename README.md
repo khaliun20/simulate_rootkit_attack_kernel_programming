@@ -6,8 +6,7 @@ In this project, I implemented a Linux kernel module as well as rootkit simulati
 
 sneaky_process.c simulates a scenario where an attacker loads the sneaky module into a compromised machine, executes unauthorized actions, such as adding a rogue user, and upon completion of malicious activities, removes the sneaky module. The goal is to demonstrate a potential security threat by manipulating system calls and files, emphasizing the importance of safeguarding against such attacks
 
-![rootkit](imgs/1.png)
-
+<img src="imgs/3.png" alt="rootkit" width="300" height="200">
 
 * The sneaky_process.c program copies content in etc/passwd to a temporary file, here I copy over to tmp/passwd.
   
